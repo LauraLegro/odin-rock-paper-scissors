@@ -1,6 +1,33 @@
+body, html {
+    height: 100%;
+    margin: 0;
+
+
+}
+
 .flex-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    height: 80vh;
+
+}
+
+button {
+    background-color: rgb(180, 71, 180);
+    padding: 14px 24px;
+    color: white;
+    border: none;
+    font-family:  monospace;
+    
+
+}
+
+h1 {
+    font-family:  monospace;
+    letter-spacing: 3px;
+    font-size: 27px;
+    color: rgb(194, 21, 159);
 
 }
